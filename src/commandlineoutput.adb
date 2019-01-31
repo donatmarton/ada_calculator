@@ -6,6 +6,11 @@ package body CommandLineOutput is
    begin
       Put_Line ("Welcome to basic expression calculator!");
    end Print_Welcome_Message;
+   
+   procedure Print_Farewell_Message is
+   begin
+      Put_Line ("Goodbye.");
+   end Print_Farewell_Message;
 
    procedure Print_Custom_Message (message : String) is
    begin
