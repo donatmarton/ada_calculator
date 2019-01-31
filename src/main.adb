@@ -1,3 +1,4 @@
+with Ada.Text_IO; use Ada.Text_IO;
 with Ada.Strings.Maps; use Ada.Strings.Maps;
 with Ada.Strings.Fixed;
 with CommandLineOutput;
